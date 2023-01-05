@@ -1,0 +1,68 @@
+.main{
+    justify-content: center;
+}
+
+.main .information{
+    flex-direction: row;
+    height: 80%;
+}
+
+.main .information .description{
+    width: 60%;
+    padding-left: 2%;
+}
+
+.main .information .description .title{
+    align-self: flex-start;
+    text-align: start;
+}
+
+.main .information .description .paragraph{
+    align-self: flex-start;
+    text-align: start;
+}
+
+.main .information .container--calification{
+    height: 100%;
+    justify-content: center;
+}
+
+.main .information .container--calification .Rate--container{
+    padding: 2%;
+}
+
+.main .information .container--calification .left{
+    align-self: start;
+    margin-left: 2%;
+}
+
+.main .information .container--calification .center{
+    align-self: center;
+}
+
+.main .information .container--calification .right{
+    align-self: flex-end;
+    margin-right: 2%;
+}
+
+.main .card--container{
+    flex-direction: row;
+    height: 20rem;
+}
+
+.main .card--container .card--container__comment{
+    margin: 0 2%;
+}
+
+.main .card--container .top{
+    align-self: flex-start;
+}
+
+.main .card--container .center{
+    align-self: center;
+}
+
+.main .card--container .bottom{
+    align-self: flex-end;
+}
+

@@ -1,0 +1,33 @@
+.main{
+    padding: 0 5rem;
+}
+
+.main .information .description {
+    width: 50%;
+}
+
+.main .information .description .title {
+    width: 80%;
+    font-size: 1.6rem;
+}
+
+.main .information .description .paragraph {
+    font-size: 1.125rem;
+}
+
+.main .information .container--calification .Rate--container {
+    max-width: 460px;
+    width: 100%;
+    flex-direction: row;
+    padding: 3% 0;
+}
+
+.main .information .container--calification .Rate--container .stars {
+    width: 50%;
+}
+
+.main .information .container--calification .Rate--container .comment {
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+}

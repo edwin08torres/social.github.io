@@ -1,0 +1,43 @@
+.main {
+    padding: 0 8rem;
+    justify-content: center;
+}
+
+.main .information{
+    height: 20rem;
+}
+
+.main .information .description .title {
+/* border: 2px solid red; */
+padding: 0;
+}
+
+.main .information .description .title h1{
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.main .information .description .paragraph {
+    font-size: 1.2rem;
+}
+
+.main .information .container--calification{
+    height: 100%;
+}
+
+.main .information .container--calification .Rate--container{
+    /* border: 2px solid red; */
+    margin: 1%;
+    padding: 2%;
+}
+
+
+.main .information .container--calification .Rate--container .stars {
+    font-size: 1.1rem;
+    justify-content: space-evenly;
+}
+
+.main .information .container--calification .Rate--container .comment {
+    font-size: 1.3rem;
+}
